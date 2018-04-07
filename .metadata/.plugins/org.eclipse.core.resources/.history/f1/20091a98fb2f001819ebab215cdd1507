@@ -1,0 +1,5 @@
+package com.consumer.feign.accounts;
+
+public class AccountsAll {
+
+}

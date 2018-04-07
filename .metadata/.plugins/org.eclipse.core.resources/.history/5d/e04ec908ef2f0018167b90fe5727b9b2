@@ -1,0 +1,14 @@
+package com.server.AlphaAccounts;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@SpringBootApplication
+/*@EnableDiscoveryClient*/
+public class AlphaAccountsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AlphaAccountsApplication.class, args);
+	}
+}

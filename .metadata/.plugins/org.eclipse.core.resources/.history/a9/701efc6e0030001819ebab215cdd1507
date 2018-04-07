@@ -1,0 +1,13 @@
+package com.consumer.feign.accounts;
+
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.netflix.client.util.Resources;
+
+@FeignClient(value = "ACCOUNTS-PROVIDER", path = "/accounts")
+public interface AccountsAll {
+	@GetMapping("/all")
+	String  getAll();
+}

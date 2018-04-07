@@ -1,0 +1,5 @@
+package com.taskmanager.app.entity;
+
+public class Task {
+
+}

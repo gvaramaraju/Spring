@@ -1,0 +1,5 @@
+package com.taskmanager.app.repository;
+
+public interface TaskManagerRepository {
+
+}

@@ -1,0 +1,18 @@
+#Server Properties
+server.port=0000
+
+
+#Eureka Server Registration
+spring.application.name=Accounts-Provider
+eureka.instance.hostname=localhost:8001
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+eureka.client.service-url.defaultZone=localhost:8001/eureka
+
+
+# Database Connection
+spring.datasource.url = jdbc:mysql://localhost:3306/Raju
+spring.datasource.username = root
+spring.datasource.password =
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+spring.jpa.hibernate.ddl-auto = update

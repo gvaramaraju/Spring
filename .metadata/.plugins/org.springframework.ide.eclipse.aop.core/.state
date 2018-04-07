@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="bootsample"/>
+<aop-project name="AlphaEurekaServer"/>
+<aop-project name="AlphaConsumer"/>
+<aop-project name="AlphaAccounts"/>
+<aop-project name="AlphaConfigServer"/>
+</aop-reference-model>

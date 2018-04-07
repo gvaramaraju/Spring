@@ -1,0 +1,12 @@
+package com.consumer.feign.accounts;
+
+import java.util.List;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+import com.netflix.client.util.Resources;
+
+@FeignClient(value = "Accounts-Provider", path = "/accounts")
+public interface AccountsAll {
+	Resources <AccountEntity> getAll();
+}
